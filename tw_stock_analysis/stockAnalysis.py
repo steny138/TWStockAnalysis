@@ -13,7 +13,7 @@ MA_20 = 10
 ACCEPTABLE_PERCENTAGE = 0.03
 
 class StockAnalysis(object):
-    """docstring for StockAnalysis"""
+    """藏股分析買點"""
     def analysis(self):
         print '開始分析'
         print '傳入%d個參數' % len(self._stocks)
@@ -22,9 +22,8 @@ class StockAnalysis(object):
             if self.is_nothigh_averageup_valuedown_pricesame(i):
                 print '分析到高點'
         
-
-    """股價不在高點 ＆ 三日線呈現上漲 & 量縮 ＆ 價平 => 漲很大"""
     def is_nothigh_averageup_valuedown_pricesame(self, index = 1):
+        """股價不在高點 ＆ 三日線呈現上漲 & 量縮 ＆ 價平 => 漲很大"""
         result = True
         lastStcok = self._stocks[-index]
         
@@ -39,7 +38,7 @@ class StockAnalysis(object):
         # 三日線呈現上漲
         ma, cont_days = self._grs_stock.MA(MA_5)
         logging.debug('均價：%.3f' % ma[-index])
-        cont_days = self.__cal_continue(ma[0: -index])
+        cont_days = self.cal_continue(ma[0: -index])
         result &= (cont_days > 0 and cont_days < MA_5)
 
         # 量縮
@@ -72,6 +71,7 @@ class StockAnalysis(object):
         return sortd[low_range]
 
     def __get_higher_range(self,range):
+
         return int(range - math.floor(range / 3)), range
 
     def __how_variety_volumn(self, index):
@@ -108,11 +108,11 @@ class StockAnalysis(object):
         else:
             raise Exception('WTF! Apper impossible averageValue')
 
-    def __cal_continue(self, list_data):
+    def cal_continue(self, list_data):
         """ 計算持續天數
 
-            :rtype: int
-            :returns: 向量數值：正數向上、負數向下。
+            Rtype: int
+            Returns: 向量數值：正數向上、負數向下。
         """
         diff_data = []
         for i in range(1, len(list_data)):
