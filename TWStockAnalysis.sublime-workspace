@@ -1,0 +1,1240 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"class\tkeyword"
+			],
+			[
+				"dic",
+				"DICT_NO_TEXT_IN_CMD"
+			],
+			[
+				"youbik",
+				"youbike_stop\tmodule"
+			],
+			[
+				"or",
+				"orm_model\tmodule"
+			],
+			[
+				"B",
+				"BusInfo"
+			],
+			[
+				"data",
+				"dataDict\tstatement"
+			],
+			[
+				"taip",
+				"taipei_opendata\tmodule"
+			],
+			[
+				"cl",
+				"classmethod\tclass"
+			],
+			[
+				"start",
+				"start\tpy_scrapy_init"
+			],
+			[
+				"ptt",
+				"PttArticle\tclass"
+			],
+			[
+				"Ptt",
+				"PttCrawlerItem\tclass"
+			],
+			[
+				"sp",
+				"Spider\tclass"
+			],
+			[
+				"fetc",
+				"fetchdata"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"fet",
+				"fetch_stocks\tstatement"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"n",
+				"NAME\tstatement"
+			],
+			[
+				"get",
+				"getattr\tfunction"
+			],
+			[
+				"se",
+				"selector\tproperty"
+			],
+			[
+				"Memb",
+				"MemberComponent\talias"
+			],
+			[
+				"blog",
+				"BlogService\tclass"
+			],
+			[
+				"mem",
+				"MemberService\tclass"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"nu",
+				"number\tkeyword"
+			],
+			[
+				"me",
+				"member.html"
+			],
+			[
+				"te",
+				"templateUrl\tproperty"
+			],
+			[
+				"s",
+				"MemberServices.ts"
+			],
+			[
+				"Se",
+				"SETTINGS\tstatement"
+			],
+			[
+				"S",
+				"SETTINGS\tstatement"
+			],
+			[
+				"glo",
+				"globals\tfunction"
+			],
+			[
+				"cls",
+				"close\tfunction"
+			],
+			[
+				"user",
+				"ssh_username"
+			],
+			[
+				"pas",
+				"password\tparam"
+			],
+			[
+				"t",
+				"try\tTry/Except"
+			],
+			[
+				"co",
+				"Column"
+			],
+			[
+				"sto",
+				"stockList\tstatement"
+			],
+			[
+				"war",
+				"warning\tfunction"
+			],
+			[
+				"csv",
+				"csv_files\tstatement"
+			],
+			[
+				"TWSE",
+				"TWSE_PATH\tstatement"
+			],
+			[
+				"fe",
+				"fetch_baseInfo\tmodule"
+			],
+			[
+				"web",
+				"_webUrl"
+			],
+			[
+				"fir",
+				"firstTr\tstatement"
+			],
+			[
+				"fetch_",
+				"fetch_stockNumber\tmodule"
+			],
+			[
+				"writ",
+				"writerow"
+			],
+			[
+				"all",
+				"all_items\tstatement"
+			],
+			[
+				"sTyp",
+				"sTypeNo\tstatement"
+			],
+			[
+				"fr",
+				"fetch_from_twse"
+			],
+			[
+				"html",
+				"html5\tSimple HTML5 Boilerplate"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"新增",
+				"新增行"
+			],
+			[
+				"rep",
+				"response"
+			],
+			[
+				"sub",
+				"Sub"
+			],
+			[
+				"getgd",
+				"getGdsApigetPnrInfo"
+			],
+			[
+				"FunDispla",
+				"FunDisplayPnrChangeAirline"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"vwor",
+				"vWor00_sts"
+			],
+			[
+				"vordr",
+				"vOrdr_ordr"
+			],
+			[
+				"vord",
+				"vOrdr_year"
+			],
+			[
+				"wti",
+				"write"
+			],
+			[
+				"wor00",
+				"vWor00_wtyear"
+			],
+			[
+				"vcon",
+				"vCon_email"
+			],
+			[
+				"vwt",
+				"vWor00_wtyear"
+			],
+			[
+				"dim",
+				"Dim"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"an",
+				"$animate\tAngularJS"
+			],
+			[
+				"angular",
+				"angular.bind"
+			],
+			[
+				"the",
+				"then"
+			],
+			[
+				"if",
+				"If"
+			],
+			[
+				"end",
+				"End"
+			],
+			[
+				"ch",
+				"checkTime2"
+			],
+			[
+				"chec",
+				"checkTime1"
+			],
+			[
+				"che",
+				"checkTime1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"htmlpr",
+				"HTMLPrettify"
+			],
+			[
+				"term",
+				"Terminal: Open in project folder"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"rm",
+				"Package Control: Remove Package"
+			],
+			[
+				"lp",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"npm: Install Package"
+			],
+			[
+				"listp",
+				"npm: List Installed Packages, Deep"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"pys",
+				"Snippet: py_start"
+			],
+			[
+				"",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"scrap",
+				"Snippet: py_scrapy_init"
+			],
+			[
+				"py",
+				"Snippet: py_start"
+			],
+			[
+				"ana",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"htmlp",
+				"HTMLPrettify"
+			],
+			[
+				"Snippet: ",
+				"Snippet: py_start"
+			],
+			[
+				"sspyt",
+				"Set Syntax: Python"
+			],
+			[
+				"ssxml",
+				"Set Syntax: XML"
+			],
+			[
+				"sspth",
+				"Set Syntax: Python"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"sho",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"autofo",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"intall",
+				"npm: Install Package"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"type",
+				"TypeScript: Show Error List"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssj",
+				"Set Syntax: JSON"
+			],
+			[
+				"anaf",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"todo",
+				"Git: Custom Command"
+			],
+			[
+				"rmp",
+				"Package Control: Remove Package"
+			],
+			[
+				"anaconda",
+				"Anaconda: Show error list"
+			],
+			[
+				"ss",
+				"Set Syntax: Python"
+			],
+			[
+				"pc",
+				"Package Control: Add Repository"
+			],
+			[
+				"pl",
+				"Package Control: List Packages"
+			],
+			[
+				"addre",
+				"Package Control: Add Repository"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML5"
+			],
+			[
+				"mb",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"asp",
+				"Set Syntax: ASP"
+			],
+			[
+				"ssc#",
+				"Set Syntax: C#"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Add Channel"
+			],
+			[
+				"liverel\t",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livere",
+				"LiveReload: Self test"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"listpage",
+				"Package Control: List Packages"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"lives",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"mak",
+				"Set Syntax: Makefile"
+			],
+			[
+				"markdo",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pageck",
+				"Package Control: List Packages"
+			],
+			[
+				"h",
+				"HTMLPrettify"
+			],
+			[
+				"inse",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"htmlprettify",
+				"HTMLPrettify"
+			],
+			[
+				"prettu",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"pic",
+				"Package Control: List Packages"
+			],
+			[
+				"list page",
+				"Package Control: List Packages"
+			],
+			[
+				"P",
+				"Package Control: List Packages"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"stop",
+			"exit",
+			"exit()",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"npm",
+			"view.run_command(\"htmlprettify\")",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Macintosh HD/Project/TWStockAnalysis"
+	],
+	"file_history":
+	[
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/app.py",
+		"/Users/YuChenMac/Documents/ 2017xm3xu4",
+		"/Volumes/Macintosh HD/SteamLibrary/steamapps/common/Sid Meier's Civilization V/Civilization V.app/Contents/Info.plist",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/telegram_bot/tpebus.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/orm_model/user.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/orm_model/route.py",
+		"/Volumes/Macintosh HD/下載項目/GetRoute",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/telegram_bot/IExecuteCommandService.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/taipei_opendata/bus.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/orm_model/park.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/orm_model/stop.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/orm_model/youbike_stop.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/orm_model/rte.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/migrations/versions/af24f6f6a0c7_.py",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/Terminal/Default (OSX).sublime-keymap",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/termX/termX.sublime-settings",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/termX.sublime-settings",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/PythonTaipeiOpendata.sublime-project",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/taipei_opendata/youbike.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/taipei_opendata/request.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/main.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/config.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/requirements.txt",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/manage.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/orm_model/__init__.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/taipei_opendata/__init__.py",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/taipei_opendata/request",
+		"/Volumes/Macintosh HD/Project/PythonTaipeiOpendata/taipei_opendata/bus",
+		"/Volumes/Macintosh HD/下載項目/GetEstimateTime",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/gossip.json",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/ptt.mdj",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/PTTCrawler.sublime-project",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/ptt_crawler/spiders/ptt.py",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/py_start.sublime-snippet",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/py_scrapy_init.sublime-snippet",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/ptt_crawler/db/main.py",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/requirements.txt",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/ptt_crawler/db/__init__.py",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/ptt_crawler/main.py",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/ptt_crawler/__init__.py",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/setup.py",
+		"/Volumes/Macintosh HD/Project/PTTCrawler/ptt_crawler/ptt/ptt/items.py",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/services/MemberServices.ts",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/commands/install.command",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/webapi/prog_api.py",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/webapi/unqlite.py",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/webapi/main.py",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/EmbeddedNosqlDataBases.git.sublime-project",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/setup.py",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/practice_leveldb.py",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/main.py",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/practice_unqlite.py",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/logs/20160529.log",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/execute_shell.command",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/logs/20160525.log",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/logging.conf",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/choose_stocks.json",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/__init__.py",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/requirements.txt",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/20160525.log",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/ubqlite.py",
+		"/Volumes/Macintosh HD/Project/EmbeddedNosqlDataBases.git/embedded_nosql_databases/db/test.db",
+		"/Volumes/Macintosh HD/Project/ThsrMomentOrder.git/thsr_moment_order.sublime-project",
+		"/Volumes/Macintosh HD/下載項目/imageDownload.py",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/twss_analysis/settings.py",
+		"/Volumes/Macintosh HD/Project/ThsrMomentOrder.git/thsr_moment_order/Models/stock.py",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/py_start",
+		"/Volumes/Macintosh HD/Project/ThsrMomentOrder.git/thsr_moment_order/__init__.py",
+		"/Volumes/Macintosh HD/Project/ThsrMomentOrder.git/thsr_moment_order/main.py",
+		"/Volumes/Macintosh HD/Project/ThsrMomentOrder.git/.gitignore",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/menu.component.ts",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/main.js",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/templates/menu.html",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/menu.component.js.map",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/blog.component.ts",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/index.html",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/main.ts",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/README.md",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/test_data/member.json",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/commands/start.command",
+		"/Volumes/Macintosh HD/下載項目/templated-murkystairwell/index.html",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/templates/blog.html",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/services/BlogServices.ts",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/app/test_data/blog.json",
+		"/Users/YuChenMac/Documents/Reference/angular-2-samples/demo-page.html",
+		"/Users/YuChenMac/Documents/Reference/angular-2-samples/components/http/http.ts",
+		"/Users/YuChenMac/Documents/Reference/angular-2-samples/demo-page.ts",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/css/sd-admin.css",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/css",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/package.json",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/bs-config.json",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/commands/test.command",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/start.command",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/website/install.command",
+		"/Volumes/Macintosh HD/Project/ShyGiProg.git/.gitignore",
+		"/Volumes/Macintosh HD/Project/DemoAngulars2/package.json",
+		"/Volumes/Macintosh HD/Project/DemoAngulars2/app/index.js",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/twss_analysis/normal_settings.json",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/twss_analysis/Models/stock.py",
+		"/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/Open_Local_sshtunnel.md",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/twss_analysis/__init__.py",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/twss_analysis/Models/__init__.py",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/twss_analysis/ViewModels/__init__.py",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/twss_analysis/main.py",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/setup.py",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/PythonTwssAnalysis.sublime-project",
+		"/Volumes/Macintosh HD/Project/PythonTwssAnalysis/TwssAnalysis/__init__.py",
+		"/Volumes/Macintosh HD/Project/Python_ORM_Test/ORM_Test.sublime-project",
+		"/Volumes/Macintosh HD/Project/Python_ORM_Test/logging.conf",
+		"/Volumes/Macintosh HD/Project/Python_ORM_Test/ORM_Test/ORM_Test.py",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Volumes/Macintosh HD/Project/Python_ORM_Test/ORM_Test/YuchenAWSEC2.pem.txt",
+		"/Volumes/Macintosh HD/Project/Python_ORM_Test/README.md",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/Anaconda/README.md",
+		"/Users/YuChenMac/Library/Application Support/Sublime Text 3/Packages/Anaconda/Default (OSX).sublime-keymap",
+		"/Users/YuChenMac/Documents/Reference/grs.git/setup.py",
+		"/Volumes/Macintosh HD/Project/twss/twss/fetch_from_twse.py",
+		"/Volumes/Macintosh HD/Project/twss/twss/fetch_stockNumber.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+			"<current file>",
+			"<current file>,<open folders>",
+			"<current file>",
+			"",
+			"Sublime Text 3",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Language",
+			"clean_user_begaviro_with_database",
+			"get_command",
+			"result",
+			"get_command",
+			"parse_cmd_text",
+			"get_command",
+			"parse_cmd_text",
+			"get_command",
+			"parse_cmd_text",
+			"'",
+			"u'",
+			"False",
+			"'",
+			"u'",
+			"5432",
+			"print",
+			"parse_cmd_text",
+			"get_command",
+			"orm_model",
+			"route",
+			"orm_model",
+			"user",
+			"orm_model",
+			"module",
+			"'",
+			"False",
+			"u'",
+			"route",
+			"get_command",
+			"process_database",
+			"print",
+			"self.user",
+			"print",
+			"_db",
+			"track_user_behavior_from_database",
+			"False",
+			"'",
+			"u'",
+			"'",
+			"u'",
+			"process_database",
+			"parse_cmd_text",
+			"'",
+			"u'",
+			"db",
+			"User",
+			"alembic_version",
+			"print",
+			"request",
+			"print",
+			"parse_board",
+			"PttBoard",
+			"PttCrawlerItem",
+			"美國",
+			"美國籃球群組",
+			"美國籃球群組 ",
+			"twse_no",
+			"StockData",
+			"twse_no",
+			"__read_prepare_stocks",
+			"StockData",
+			"2618",
+			"unqlite",
+			"set",
+			"browser",
+			"toTimeTable",
+			"wait_for_text_to_match",
+			"select_by_value",
+			"page-header",
+			"img05",
+			"page-",
+			"page-header",
+			"container-fluid",
+			"section",
+			"container-fluid",
+			"HttpSample",
+			"Observable",
+			"AddressBook",
+			"runtime",
+			"ticketsl",
+			"ticke",
+			"angular\\.module",
+			"angular.module",
+			"tickets",
+			"module",
+			"TicketsListCtrl",
+			"ticketlistcontrl",
+			"quantityBtnClick",
+			"TicketsListCtrl",
+			"controller",
+			"logger",
+			"engine_connect",
+			"global",
+			"create_engine",
+			"ssh",
+			"create_engine",
+			"world",
+			"etree",
+			"TimedRotatingFile",
+			"monthAgo",
+			"exce",
+			"logger",
+			"stockList",
+			"print",
+			"ex_ch",
+			"builtin_function_or_method",
+			"decode",
+			".decode",
+			"decode",
+			"new",
+			"_name",
+			"baseInfo",
+			"logger",
+			"industry_code",
+			"\\\"cI\\\"",
+			"\\\"ca\\\"",
+			"\\\"ca",
+			"br",
+			"\\\"br",
+			"CreateTmpl",
+			"FunSetParent",
+			"openExcel",
+			"excel",
+			"hide",
+			"gide",
+			"hidden",
+			"CreateTmpl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"'",
+			"false",
+			"\"",
+			"'",
+			"\"",
+			"false",
+			"'",
+			"false",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"2618\"",
+			"self.dirver",
+			"\"CX\"",
+			"\"BR\"",
+			"Sublime Text 3",
+			"",
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.anaconda_documentation":
+	{
+		"height": 122.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.errorlist":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 122.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "TWStockAnalysis.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index.html",
+				"website/index.html"
+			],
+			[
+				"index",
+				"website/index.html"
+			],
+			[
+				"",
+				"website/README.md"
+			],
+			[
+				"tppd20_25",
+				"tppd20_25.asp"
+			],
+			[
+				"days",
+				"tppd20_days.asp"
+			],
+			[
+				"_25",
+				"tppd20_25.asp"
+			],
+			[
+				"free",
+				"tppd20_free.asp"
+			],
+			[
+				"d99",
+				"tppd20_d99.asp"
+			],
+			[
+				"tppd20",
+				"tppd20_21.asp"
+			],
+			[
+				"ordr07_pnr",
+				"Tour\\ordr07_pnr.asp"
+			],
+			[
+				"wtor01_pnr",
+				"Tkt\\wtor01_pnr.asp"
+			],
+			[
+				"tsor01_add",
+				"TC\\tsor01_add.asp"
+			],
+			[
+				"wtor",
+				"wtor01_d.asp"
+			],
+			[
+				"wtor01_d",
+				"wtor01_d.asp"
+			],
+			[
+				"mail",
+				"wtor01_mail_io.asp"
+			],
+			[
+				"wtor01_mail",
+				"wtor01_mail.asp"
+			],
+			[
+				"mis98c",
+				"MisVB\\Erplogin\\Mism98C1.cls"
+			],
+			[
+				"mism98c1",
+				"MisVB\\Erplogin\\Mism98C1.cls"
+			],
+			[
+				"mis98",
+				"Mis9\\mis098.asp"
+			],
+			[
+				"ordr07_pn",
+				"Tour\\ordr07_pnr.asp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
