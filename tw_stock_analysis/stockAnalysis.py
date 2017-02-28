@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 AVERAGE_DAY_FOR_SEASON = 90
 MA_5 = 5
-MA_20 = 10
+MA_10 = 10
 ACCEPTABLE_PERCENTAGE = 0.03
 
 class StockAnalysis(object):
@@ -82,7 +82,7 @@ class StockAnalysis(object):
                 Returns: 
                     1上漲中; 0平穩; -1下跌中
         """
-        ma, cont_days = self._grs_stock.MAV(MA_20)
+        ma, cont_days = self._grs_stock.MAV(MA_10)
         averageValue = (ma[-index]*1000 - self._stocks[-index].total_stocks)/self._stocks[-index].total_stocks
         if abs(averageValue) < ACCEPTABLE_PERCENTAGE :
             return 0, averageValue
@@ -97,7 +97,7 @@ class StockAnalysis(object):
         """價的變化
             return: 1上漲中; 0平穩; -1下跌中
         """
-        ma, cont_days = self._grs_stock.MA(MA_20)
+        ma, cont_days = self._grs_stock.MA(MA_10)
         averageValue = (ma[-index] - self._stocks[-index].close_price)/self._stocks[-index].close_price
         if abs(averageValue) < ACCEPTABLE_PERCENTAGE :
             return 0, averageValue
