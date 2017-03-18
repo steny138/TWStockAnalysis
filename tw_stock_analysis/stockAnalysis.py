@@ -17,12 +17,14 @@ class StockAnalysis(object):
     def analysis(self):
         print '開始分析'
         print '傳入%d個參數' % len(self._stocks)
-        for i in range(1, AVERAGE_DAY_FOR_SEASON):
-            print "第%d次" % i
-            if self.is_nothigh_averageup_valuedown_pricesame(i):
+        for i in range(2, AVERAGE_DAY_FOR_SEASON):
+            print "第%d次 %s" % (i, self._stocks[-i].date)
+            # if self.is_nothigh_averageup_valuedown_pricesame(i):
+            #     print '分析到高點'
+            if self.is_moreLow_averageDown_valueUp_priceDown(i):
                 print '分析到高點'
         
-    def is_nothigh_averageup_valuedown_pricesame(self, index = 1):
+    def is_notHigh_averageUp_valueDown_priceSame(self, index = 1):
         """股價不在高點 ＆ 三日線呈現上漲 & 量縮 ＆ 價平 => 漲很大"""
         result = True
         lastStcok = self._stocks[-index]
@@ -63,10 +65,82 @@ class StockAnalysis(object):
             logging.debug('%s價沒平: %d', lastStcok.date, self.__how_variety_close_price(index)[0])
         return result
 
+    def is_moreLow_averageDown_valueUp_priceDown(self, index = 1):
+        """
+            歷史行情偏低 ＆ 剛開始上漲 ＆ 上漲前跌很久 ＆ 量增 ＆ 價跌
+
+            Args:
+                index 表示搜尋點在總資料的位置
+        """
+        result = True
+        designateStcok = self._stocks[-index]
+
+        # if designateStcok.date != '106/01/11':
+        #     return
+
+        lower_point = self.__get_lower_point(self._grs_stock.price, index)
+        logging.debug('成交價：%.3f' % designateStcok.close_price)
+        logging.debug('低點 %.2f ' % lower_point)
+        # result &= designateStcok.close_price <= lower_point
+
+        # 三日線呈現上漲
+        ma, cont_days = self._grs_stock.MA(MA_5)
+        logging.debug('均價：%.3f' % self._grs_stock.price[-index])
+        cont_days = self.cal_continue(ma[0: -(index-1)])
+        logging.debug('最近趨勢：%d' % cont_days)
+        result &= (cont_days > 0 and cont_days < MA_5)
+
+        # 上漲前跌很久
+        previous_cont_days = self.cal_continue(ma[0: -(index+abs(cont_days) - 1)])
+        logging.debug('前次趨勢：%d' % previous_cont_days)
+        result &= (previous_cont_days < 0)
+
+        # 量增
+        temp, v1 = self.__how_variety_volumn(index)
+        logging.debug('量的變化：%d' % temp)
+        result &= temp > 0
+
+        # 價跌
+        temp, v2 = self.__how_variety_close_price(index)
+        logging.debug('價的變化：%d' % temp)
+        result &= temp < 0
+
+        if result: 
+            logging.info('%s-%s 買點!!!',designateStcok.stockno, designateStcok.date)
+            logging.info('低點 %.2f ' % lower_point)
+            logging.info('成交價：%.3f' % designateStcok.close_price)
+            logging.info('最近趨勢：%d' % cont_days)
+            logging.info('前次趨勢：%d' % previous_cont_days)
+            logging.info('量的變化：%d' % temp)
+            logging.info('價的變化：%d' % temp)
+
+        return result
+
+
+    def is_gotUppershadow_when_lowerPlace(self, index = 1):
+        """
+            出現上影線且股價處於上升趨勢
+            準備要跌股價囉
+        """
+        pass
+
+    def is_getLowerShadow_when_higherPlace(self, index = 1):
+        """
+            出現下影線且股價處於下降趨勢
+            準備要漲股價囉
+        """
+        pass
+
     def __get_higher_point(self, source, index):
         range = len(source[0: -index])
 
         sortd = sorted(source[0: -index])
+        low_range, high_range = self.__get_higher_range(range)
+        return sortd[low_range]
+
+    def __get_lower_point(self, source, index):
+        range = len(source[0: -index])
+        sortd = sorted(source[0: -index], reverse=True)
         low_range, high_range = self.__get_higher_range(range)
         return sortd[low_range]
 

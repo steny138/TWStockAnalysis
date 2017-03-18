@@ -22,7 +22,7 @@ def main():
         download=csv
     """    
     logger.debug('start...')
-    for stockno in ['2340']:
+    for stockno in ['4938']:
         # '2618', '3645', '2340', '4938'
         logging.debug("正在分析的股票是%s", stockno)
         stock = Stock(stockno, 12)                         # 預設是3個月    

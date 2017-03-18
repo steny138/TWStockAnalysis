@@ -32,10 +32,21 @@ class StockAnalysisTestCase(unittest.TestCase):
         self.assertEquals(expectedDays, actualDays);
         pass
 
-    def test_is_nothigh_averageup_valuedown_pricesame(self):
+    def test_notHigh_averageUp_valueDown_priceSame(self):
         index = 1
 
-        actual = self.stockAnalysis.is_nothigh_averageup_valuedown_pricesame(index)
+        actual = self.stockAnalysis.is_notHigh_averageUp_valueDown_priceSame(index)
+
+        self.assertFalse(actual)
+
+    def test_moreLow_averageDown_valueUp_priceDown(self):
+        """
+            歷史行情看股價偏低
+                + 量增 ＆ 價跌 代表 上漲的開始
+        """
+        index = 1 
+
+        actual = self.stockAnalysis.is_moreLow_averageDown_valueUp_priceDown(index)
 
         self.assertFalse(actual)
 
